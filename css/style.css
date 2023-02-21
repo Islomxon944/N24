@@ -21,6 +21,10 @@ img{
     max-width: 100%;
     height: auto;
 }
+*:focus{
+    outline: 2px dashed #7296EC;
+    outline-offset: 3px;
+}
 .container{
     width: 100%;
     max-width: 1240px;
@@ -89,6 +93,18 @@ img{
 .dollar-kursi-type {
     color: #2959CE;
 }
+/* SEARCH */
+.global-search-form-input{
+    font-size: 14px;
+    line-height: normal;
+    border: 0;
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    border-radius: 60px;
+    margin-right: 25px;
+}
 .language {
     display: flex;
     padding: 3px;
@@ -110,6 +126,4 @@ img{
 .lang-link-active {
     background-color: #fff;
     color: #000;
-}
-.button-top {
 }
