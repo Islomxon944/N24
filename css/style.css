@@ -39,6 +39,7 @@ img{
     background-color:#f6f6f6;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-bottom: 10px;
 }
 .site-header-top-container {
     display: flex;
@@ -126,4 +127,43 @@ img{
 .lang-link-active {
     background-color: #fff;
     color: #000;
+}
+/* SITENAV */
+.sitenav {
+    padding-top:16px ;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #d1d1d1;
+    font-size: 18px;
+    line-height: normal;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.sitenav-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+    margin: 0;    
+    list-style: none;
+}
+.sitevnav-item{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.sitevnav-item:not(:last-child){
+    margin-right: 34px;
+}
+.sitenav-link{
+    color: #7f7f7f;
+    display: block;
+    text-decoration: none;
+}
+.sitenav-link:hover{
+    color: #7296EC;
+}
+.sitenav-link:active{
+    opacity: 0.6;
+}
+.site-header-banner-link{
+    display: flex;
 }
