@@ -25,6 +25,7 @@ img{
     outline: 2px dashed #7296EC;
     outline-offset: 3px;
 }
+
 .container{
     width: 100%;
     max-width: 1240px;
@@ -66,6 +67,12 @@ img{
 }
 .button:active{
     opacity: 0.6;
+}
+.button-block{
+    display: block;
+    width: 100%;
+    background-color: #eaeaea;
+    color: #000 ;
 }
 .site-header-logo {
     display: flex;
@@ -275,3 +282,102 @@ img{
     font-weight: 500;
 }
 
+
+/* GLOBAL-NEWS */
+.global-news{
+    width: 797px;
+}
+.global-news-heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24PX;
+    line-height: normal;
+    color: #000;
+    font-weight: 500;
+}
+.news-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.news-list-item:not(:last-child){
+    margin-bottom: 10px;
+
+}
+
+
+.article-card-horizontal {
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f6f6f6;
+}
+.article-card-horizontal-img {
+    width: 210px;
+    height: 165px;
+    margin-right: 15px;
+    object-fit: cover;
+    border-radius:10px;
+}
+.article-card-horizontal-content {
+    flex-grow: 1;
+}
+.article-card-horizontal-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+.article-card-horizontal-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+.article-card-horizontal-link:hover{
+    color: #7296EC;
+}
+.article-card-horizontal-link:active{
+    opacity: 0.6;
+}
+.article-card-horizontal-text {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 22px;
+}
+.article-card-horizontal-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius:5px;
+}
+.article-card-horizontal-footer{
+    margin-top: 0;
+    margin-right: 5px;
+
+}
+.article-card-horizontal-time {
+    padding-top: 5px;
+    margin-top: 0;
+    font-size: 12px;
+    line-height: normal;
+    display: flex;
+    color: #5e5f61;
+}
+.article-card-horizontal{
+    margin-top: 0;
+}
+.news-list-more-button{
+    padding: 17px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    color: #000;
+}
+.article-card-horizontal-text-footer{
+    display: flex;
+}
