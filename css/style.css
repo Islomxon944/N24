@@ -499,6 +499,7 @@ img{
     margin-right: 203px;
     font-size: 12px;
     line-height: 19px;
+    font-family: "Rubik","Arial",sans-serif;
 }
 .site-footer-two-card-links {
     display: flex;
@@ -519,6 +520,7 @@ img{
     display: inline-block;
     color: #fff;
     text-decoration: none;
+    font-family: "Rubik","Arial",sans-serif;
 }
 .site-footer-two-card-links-li-a:hover{
     text-decoration: underline;
@@ -540,6 +542,7 @@ img{
     font-size: 18px;
     line-height: 23px;
     font-weight: 500;
+    font-family: "Rubik","Arial",sans-serif;
 }
 .site-footer-ended-list {
     display: flex;
