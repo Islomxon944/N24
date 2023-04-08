@@ -605,24 +605,6 @@ img{
 /* CONTACT-STYLE */
 
 
-
-.contact-card-heading{
-    margin-bottom: 20px;
-    margin-top: 0;
-    font-size: 24px;
-    line-height: 29px;
-    font-weight: 500;
-}
-
-
-.contact-cards-wrapper-form{
-    width: 696px ;
-}
-.button-button{
-    margin-left: 570px;
-    margin-top: 20px;
-    margin-bottom: 100px;
-}
 .input-groups-wrapper{
     display: flex;
     justify-content: space-between;
@@ -649,6 +631,14 @@ img{
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
+
+.button-button{
+    margin-left: 570px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+/* FORM */
 .form-field-textarea{
     resize: vertical        ;
     min-height: 180px;
@@ -660,16 +650,46 @@ img{
 .two-wrapper-input-card{
     margin-right: 10px;
 }
-.two-wrapper-text-card{
-    margin-top: 50px;
-    width: 100%;
-    height: 200px;
-}
+
 .two-news-card-source{
     margin-bottom: 40px;
     font-size: 16px;
     line-height: 18.96px;
     color: #000;
+}
+
+
+
+/* RIHGT-CONTACT-CARD */
+.two-text-card {
+    width: 100%;
+    height: 310px;
+    margin: 0;
+    padding: 20px 25px;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+    color: #000;
+}
+.contact-page-wrapper {
+    margin-top: 0;
+    width: 100%;
+}
+
+.right-contact-card-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.right-contact-card-item:not(:last-child){
+    border-bottom: 1px solid #d2d2d2;
+}
+.right-contact-card-title {
+    margin-bottom: 7px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.right-contact-card-value {
+    margin: 0;
 }
 
 
